@@ -1,0 +1,10 @@
+.pagination_wrapper ul li a:hover {
+  background: #2754a4;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .pagination_wrapper .pagination {
+    justify-content: center;
+  }
+}

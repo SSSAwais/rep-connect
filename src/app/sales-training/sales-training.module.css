@@ -1,0 +1,25 @@
+.video {
+    text-align: center;
+    width: min-content;
+    padding: 40px 0px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.video_heading {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.video_container {
+    margin: 20px 0px;
+}
+
+.video_container:nth-child(3) {
+    margin-top: 30px !important;
+}

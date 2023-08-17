@@ -1,0 +1,23 @@
+.uni_card_image_ img {
+  margin-bottom: 15px;
+}
+.desc_wrapper h4 {
+  font-family: "Poppins", sans-serif;
+  color: #1790d0;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.university_card_wrapper a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .university_card_wrapper:nth-child(1),
+  .university_card_wrapper:nth-child(2) {
+    margin-bottom: 30px;
+  }
+}

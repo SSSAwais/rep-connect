@@ -1,0 +1,31 @@
+.liberay_wrapper {
+  position: relative;
+}
+.addNewButton {
+  padding: 4px 8px;
+  text-decoration: none;
+  border: 1px solid #2271b1;
+  border-radius: 2px;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: #2271b1;
+  background: #f6f7f7;
+  cursor: pointer;
+}
+.tabs_menu_ {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #c3c4c7;
+  padding: 10px 10px;
+}
+.liberay_wrapper {
+  padding: 1rem 0rem;
+}
+@media screen and (max-width: 768px) {
+  .tab_pane {
+    text-align: center !important;
+  }
+}

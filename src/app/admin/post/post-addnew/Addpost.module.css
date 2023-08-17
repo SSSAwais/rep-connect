@@ -1,0 +1,114 @@
+.product_wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem !important;
+}
+.product_wrapper label {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #8c9097;
+  font-weight: 400;
+}
+.saveproduct {
+  padding: 0.5rem 0.85rem;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(38, 191, 148);
+  background: #e9f8f4;
+  border: none;
+  border-radius: 0.35rem;
+}
+.addProduct {
+  padding: 0.5rem 0.85rem;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 0.35rem;
+  color: rgb(132, 90, 223);
+  background: #f2eefc;
+}
+.addProduct i,
+.saveproduct i {
+  margin-left: 5px;
+}
+.addProduct:hover {
+  color: white;
+  background: #845adf;
+}
+.saveproduct:hover {
+  color: #fff;
+  background: #26bf94;
+}
+.product_wrapper ::placeholder,
+.product_wrapper select {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #333335 !important;
+  /* color: red !important; */
+  font-weight: 400 !important;
+}
+.product_wrapper input,
+.product_wrapper textarea {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #333335 !important;
+  font-weight: 400 !important;
+  border-radius: 0.35rem;
+  padding: 0.5rem 0.85rem;
+}
+.product_wrapper textarea {
+  resize: none !important;
+}
+.product_wrapper input:focus,
+.product_wrapper select:focus,
+.product_wrapper textarea {
+  color: none;
+  background-color: #fff;
+  border-color: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+.editing .ck-blurred {
+  height: 125px !important;
+}
+.postRedirection {
+  font-size: 16px !important;
+  color: #333333 !important;
+  font-weight: 600 !important ;
+}
+.uploadImg button {
+  background: transparent;
+  width: 100% !important;
+  border: 1px solid #ced4da;
+}
+.formatdataEditor button {
+  width: 34px !important;
+}
+.not_getting_showm {
+  display: none;
+}
+.image_shown img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 12px;
+}
+.mendatory {
+  color: red;
+}
+.iamge_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}

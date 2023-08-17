@@ -1,0 +1,125 @@
+.DownloadAbleMaterialCart {
+  width: 19%;
+  padding: 2rem 1rem;
+  border: 0.5px solid #e2e0e0;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+.DownloadAbleMaterialCart .cart1:hover {
+  background: #3596cc;
+}
+.DownloadAbleMaterialCart .cart2:hover {
+  background: #c23727;
+}
+.DownloadAbleMaterialCart .cart3:hover {
+  background: #e38126;
+}
+.DownloadAbleMaterialCart .cart4:hover {
+  background: #e16a5b;
+}
+.DownloadAbleMaterialCart .cart5:hover {
+  background: #3596cc;
+}
+.DownloadAbleMaterialCart .cart6:hover {
+  background: #808080;
+}
+.DownloadAbleMaterialCart .cart7:hover {
+  background: #004a2c;
+}
+.DownloadAbleMaterialCart .cart8:hover {
+  background: #709c72;
+}
+.DownloadAbleMaterialCart .cart9:hover {
+  background: #006671;
+}
+.DownloadAbleMaterialCart .cart10:hover {
+  background: #d25c93;
+}
+.DownloadAbleMaterialCart .cart11:hover {
+  background: #d2a22a;
+}
+.DownloadAbleMaterialCart .cart12:hover {
+  background: #62682e;
+}
+.DownloadAbleMaterialCart .cart13:hover {
+  background: #3596cc;
+}
+.DownloadAbleMaterialCart .cart14:hover {
+  background: #3596cc;
+}
+.DownloadAbleMaterialCart .cart15:hover {
+  background: #4584c4;
+}
+.DownloadAbleMaterialCart .cart16:hover {
+  background: #6b68a4;
+}
+.DownloadAbleMaterialCart .cart17:hover {
+  background: #2754a4;
+}
+.DownloadAbleMaterialCart .cart18:hover {
+  background: #7e491e;
+}
+
+.DownloadAbleMaterialCart a {
+  text-decoration: none;
+}
+.DownloadAbleMaterialCart .image_wrapper {
+  background: #2754a4;
+  border-radius: 1000px;
+  width: 82px;
+  height: 82px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.DownloadAbleMaterialCart .desc_wrapper .title {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1430px) {
+  .DownloadAbleMaterialCart {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .DownloadAbleMaterialCart {
+    width: 32%;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .DownloadAbleMaterialCart .desc_wrapper .title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .DownloadAbleMaterialCart {
+    width: 49%;
+  }
+  .DownloadAbleMaterialCart {
+    padding: 1rem 0.8rem;
+  }
+  .DownloadAbleMaterialCart .image_wrapper {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .DownloadAbleMaterialCart {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

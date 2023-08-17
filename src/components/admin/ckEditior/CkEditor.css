@@ -1,0 +1,15 @@
+.editing .ck-blurred {
+  height: 125px !important;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+.sun-editor {
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.editing .ck-content:focus {
+  height: 125px !important;
+}
+.sun-editor .se-resizing-bar.se-resizing-none {
+  display: none;
+}

@@ -1,0 +1,21 @@
+.dashboard-content p {
+  color: #515151;
+  font-size: 17px;
+  font-family: "Poppins";
+  margin: 0;
+  margin-bottom: 10px;
+}
+.dashboard-content .logoutbtn,
+.dashboard-content p a {
+  color: #0095eb;
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+.dashboard-content .logoutbtn:hover,
+.dashboard-content p a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: #f05c5d;
+  cursor: pointer;
+}

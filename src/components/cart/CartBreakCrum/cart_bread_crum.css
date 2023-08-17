@@ -1,0 +1,101 @@
+.cart_bread_crum {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 0;
+}
+
+.cart_bread_crum .breadcrumb-item + .breadcrumb-item::before {
+  content: "\003E";
+  transform: translateY(0);
+  padding-right: 40px;
+}
+.cart_bread_crum .breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+.cart_bread_crum span.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.8);
+}
+.cart_bread_crum span.step-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #333333;
+  display: block;
+}
+.cart_bread_crum li:not(:last-child) {
+  padding-right: 40px;
+  position: relative;
+}
+
+.cart_bread_crum .breadcrumb-item.active .step-number {
+  background: #2754a4;
+  color: #fff;
+  border-color: transparent;
+}
+.cart_bread_crum .breadcrumb-item.checked .step-number {
+  background: #2754a4;
+}
+.cart_bread_crum .breadcrumb-item.checked .step-number {
+  font-size: 0;
+}
+.cart_bread_crum .breadcrumb-item.checked .step-number::before {
+  content: "\2713";
+  font-size: 15px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .cart_bread_crum li:not(:last-child),
+  .cart_bread_crum .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 25px;
+  }
+  .cart_bread_crum .breadcrumb-item.active .step-number {
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cart_bread_crum {
+    max-width: 100%;
+  }
+  .cart_bread_crum li:not(:last-child),
+  .cart_bread_crum .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 6px;
+    transform: translateY(2px);
+  }
+  .cart_bread_crum .breadcrumb-item.active .step-number,
+  .cart_bread_crum .breadcrumb-item .step-number {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+  .cart_bread_crum span.step-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .cart_bread_crum span.step-number {
+    margin-right: 5px;
+  }
+  .cart_bread_crum .breadcrumb-item.active .step-number,
+  .cart_bread_crum .breadcrumb-item .step-number {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .cart_bread_crum .breadcrumb-item.checked .step-number::before {
+    font-size: 10px;
+  }
+}

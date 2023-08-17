@@ -1,0 +1,164 @@
+.podcast_img {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.podcast_img01 {
+    width: 370px;
+    height: 370px;
+}
+.card {
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    /* width: min-content; */
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card_heading {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.25;
+    /* text-overflow: ellipsis; enables ellipsis */
+    /* white-space: nowrap; keeps the text in a single line */
+    overflow: hidden;
+    /* width: 247px; */
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.timing_controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.speed {
+    font-size: 12px;
+    border: 1px solid #dee2e6;
+    padding: 0px 9px;
+    border-radius: 54px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.reverse {
+    cursor: pointer;
+}
+
+.pause {
+    color: #3597ce;
+    cursor: pointer;
+}
+
+.forward {
+    cursor: pointer;
+}
+
+.download {
+    cursor: pointer;
+}
+
+.timings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    width: 100%;
+}
+
+
+.for_back_control {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.accordion_btn {
+    padding: 0px 5px !important;
+}
+.accordion_btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.accordion_btn::after {
+    display: none !important;
+}
+
+
+.main_card {
+    /* padding: 0px 50px; */
+    /* text-align: center;
+    display: flex;
+    justify-content: center; */
+}
+
+.search_area {
+    margin-top: 5px;
+    width: 100%;
+    position: relative;
+}
+
+.search_icon {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.search_input {
+    padding-left: 25px;
+}
+
+.search_input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion_para {
+    margin: 5px 0px;
+    font-size: 15px;
+    margin-bottom: 3px;
+    color: #333 !important;
+}
+
+.accordion_date {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #606060;
+}
+
+.accordion_body {
+    text-align: left;
+}
+
+.card_title {
+    line-height: 22px;
+    color: #1790d0;
+    font-weight: 300;
+    letter-spacing: 0px;
+    margin-bottom: 10px; ;
+}
+
+.section_area {
+    padding: 0 20px;
+}
+
+
+.accord {
+    background-color: aquamarine !important;
+    color: red;
+}
+
+
+
+/* @media only screen and (min-width: 425px) {
+    .section_area {
+      padding: 0 5px;
+    }
+  } */

@@ -1,0 +1,423 @@
+.ProductDetail {
+  padding-right: 0px;
+  /* padding-right: 30px; */
+  width: 100%;
+}
+
+.deail--product--desc .title--clas {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.deail--product--desc .title--clas::after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 0;
+  border-width: 0 0 1px;
+  border-style: solid;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.deail--product--desc p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/*  */
+
+.product--add--cart .quanitiy--detail {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid #cdcdcd;
+  display: flex;
+  align-items: center;
+}
+
+.product--add--cart .quanitiy--detail input {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  width: 60px;
+  text-align: center;
+  height: 42px;
+  color: #777777;
+  font-weight: 700;
+  border: 1px solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-color: #cdcdcd;
+}
+
+.product--add--cart .quanitiy--detail input:focus {
+  outline: none;
+  border: none;
+}
+.quanitiy--detail span {
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0;
+  font-size: 20px;
+  display: block;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+.quanitiy--detail span:hover {
+  background-color: rgb(0 0 0 / 14%);
+}
+.product--add--cart .quanity-btn .add--to--cart {
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  background-color: #2754a4 !important;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+  margin-left: 20px;
+}
+.product--add--cart .quanity-btn .add--to--cart {
+  position: relative;
+}
+.product--add--cart .quanity-btn .add--to--cart::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.13);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.product--add--cart .quanity-btn .add--to--cart:hover::after {
+  width: 100%;
+}
+.quanity-btn .add--to--cart .btn--icon {
+  margin-left: 15px;
+}
+
+.quanity-btn .loader {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  --base-color: #2754a4;
+  top: 0;
+  left: 10px;
+}
+
+.quanity-btn .loader::after {
+  content: "";
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: radial-gradient(
+      circle 5px at 12px 12px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 12px 0px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 0px 12px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 24px 12px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 12px 24px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 20px 3px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 20px 3px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 20px 20px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 3px 20px,
+      var(--base-color) 100%,
+      transparent 0
+    ),
+    radial-gradient(
+      circle 2.5px at 3px 3px,
+      var(--base-color) 100%,
+      transparent 0
+    );
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  animation: rotationBack 4s linear infinite reverse;
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/*  SINGL DEAIL  */
+.discription--tabs--product--detail button,
+.sss--gr--single--deail button {
+  color: #444444;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  border: 0;
+  cursor: pointer;
+  background: #f9f9f9;
+  box-shadow: inset 0px 4px 3px -2px rgba(0, 0, 0, 0.04);
+}
+
+.sss--gr--single--deail button:focus {
+  box-shadow: none;
+}
+.sss--gr--single--deail .accordion-button:not(.collapsed) {
+  background: #f9f9f9;
+  color: #1790d0;
+}
+
+.sss--gr--single--deail .accordion-header {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.sss--gr--single--deail .accordion-button::after {
+  display: none;
+}
+.sss--gr--single--deail .accordion-button:not(.collapsed)::before {
+  content: "\2212";
+  font-size: 18px;
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 15px 20px;
+  margin-right: 15px;
+}
+.sss--gr--single--deail .accordion-button::before {
+  content: "\002B";
+  font-size: 18px;
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  display: block;
+  padding: 15px 20px;
+  margin-right: 15px;
+}
+.deail--product--desc .single--product--detail--tabs {
+  margin-top: 30px;
+}
+.single--product--detail--tabs .accordion-item {
+  border: none;
+}
+
+.sss--gr--single--deail .accordion-body {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  margin-top: -8px;
+  padding-top: 30px;
+  border: 1px solid;
+  border-top: 0;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+.discription--tabs--product--detail button {
+  padding: 10px 20px;
+  border-radius: 0 !important;
+  /* margin: 0 10px 10px 0; */
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #efefef !important;
+  border: 1px solid !important;
+  border-color: #d8d8d83d !important;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.discription--tabs--product--detail button.nav-link.active {
+  color: #1790d0;
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border: 1px solid !important;
+  border-color: #1790d0 !important;
+}
+
+.sss--gr--single--deail div#pills-tabContent {
+  padding: 1rem;
+  margin-top: 30px;
+  border: 1px solid #f0f0f0 !important;
+}
+
+.sss--gr--single--deail .woocommerce---value {
+  font-style: italic;
+  width: 80%;
+  text-align: right;
+  overflow: hidden;
+}
+.sss--gr--single--deail .woocommerce---label {
+  width: 150px;
+}
+/* .sss--gr--single--deail .woocommerce---label span, */
+.sss--gr--single--deail .woocommerce---value span {
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+}
+.sss--gr--single--deail .woocommerce---value span::after {
+  content: "";
+  width: 1920px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: calc(100% + 20px);
+  top: calc(50% - 1px);
+}
+
+/* LATEST PRODUCT'S */
+.related-product-single-page .title {
+  color: #1790d0;
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+
+.related-product-single-page {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #cdcdcd;
+}
+.deail--product .deail--product--image {
+  padding: 2px;
+  /* border: 1px solid #2754a4; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.deail--product--desc .out-of-stock {
+  color: red;
+}
+.deail--product--image div:first-child {
+  cursor: auto !important;
+  overflow: hidden;
+  /* height: 300px !important; */
+  object-fit: cover;
+}
+
+.pricing-check .price {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin: 20px 0;
+}
+.pricing-check .price span {
+  color: #2754a4;
+}
+/* .deail--product--image img {
+  height: 100% !important;
+} */
+@media screen and (max-width: 1025px) {
+  .ProductDetail {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .deail--product--desc .title--clas {
+    font-size: 30px;
+    line-height: normal;
+  }
+  /* .quanitiy--detail span {
+    padding: 0 12px;
+  } */
+  .product--add--cart .quanitiy--detail input {
+    height: 40px;
+  }
+  .product--add--cart .quanity-btn .add--to--cart {
+    padding: 8px 20px;
+  }
+  .sss--gr--single--deail .accordion-button:not(.collapsed)::before,
+  .sss--gr--single--deail .accordion-button::before {
+    padding: 10px 15px;
+  }
+  .sss--gr--single--deail .accordion-body {
+    padding-top: 20px;
+  }
+  .discription--tabs--product--detail button {
+    padding: 8px 17px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .related-product-single-page {
+    margin-top: 20px;
+  }
+  .deail--product--desc .title--clas {
+    font-size: 25px;
+  }
+  .ProductDetail {
+    width: 100%;
+    padding-right: 0;
+  }
+  .deail--product--desc p {
+    font-size: 15px;
+  }
+  .deail--product--image {
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #d7d7d7;
+    padding: 8px;
+    width: fit-content;
+    margin: auto;
+  }
+  .deail--product--image div:first-child {
+    height: 100% !important;
+  }
+  .product--add--cart .quanity-btn .add--to--cart {
+    padding: 8px 12px;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .deail--product--image div img {
+    height: 100% !important;
+    object-fit: cover;
+    width: fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .deail--product--image {
+    height: 230px;
+  }
+}

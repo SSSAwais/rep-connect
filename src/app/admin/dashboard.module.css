@@ -1,0 +1,164 @@
+.dashboard_wrapper {
+  background-color: #f0f1f7;
+}
+.custom_card {
+  font-family: "Inter", sans-serif;
+  border-radius: 0.5rem;
+  border: 0;
+  box-shadow: 0 0.125rem 0 rgba(10, 10, 10, 0.04);
+  position: relative;
+  -webkit-margin-after: 1.5rem;
+  margin-block-end: 1.5rem;
+  width: 100%;
+  background-color: #fff;
+}
+.card_heading {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333335;
+  font-weight: 400;
+}
+.numbers {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  color: #333335;
+  font-weight: 600;
+}
+.text_muted {
+  font-family: "Inter", sans-serif;
+
+  font-size: 10px;
+  line-height: 15px;
+  color: #8c9097;
+  font-weight: 600;
+}
+.stats {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #845adf;
+  font-weight: 400;
+  text-decoration: none;
+}
+.main_card_icon i {
+  color: rgb(132, 90, 223);
+}
+.sales_overview h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: #333335;
+  margin-bottom: 0px;
+}
+.transectionCardWrapper a {
+  text-decoration: none;
+}
+.transectionCardWrapper {
+  border-radius: 0.5rem;
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0 rgba(10, 10, 10, 0.04);
+  position: relative;
+  -webkit-margin-after: 1.5rem;
+  margin-block-end: 1.5rem;
+  width: 100%;
+}
+.card_header {
+  background-color: white;
+  padding: 16px 20px;
+  border-block-end: 1px solid #f3f3f3;
+}
+.card_title {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333335;
+  font-weight: 700;
+}
+/* .customersss {
+  display: flex;
+} */
+.customer_heading {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333335;
+  font-weight: 700;
+}
+.viewAll {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8c9097;
+  font-weight: 400;
+}
+.list_group_item {
+  padding: 16px 20px;
+  list-style-type: none;
+}
+.row_mar {
+  margin-top: 24px !important;
+}
+.list_group_item {
+  padding: 12px 20px !important;
+}
+.list____ {
+  list-style-type: none;
+  padding-top: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.row_mar .card_header {
+  padding: 16px 20px;
+  background-color: transparent !important;
+  -webkit-border-after: 1px solid #f3f3f3;
+  border-block-end: 1px solid #f3f3f3;
+  display: flex !important;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.list____ .activity_button {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgb(132, 90, 223) !important;
+  font-weight: 500;
+  background: #f2eefc;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+}
+.list____ .activity_button:hover {
+  background: #845adf !important;
+  color: #fff !important;
+}
+@media screen and (max-width: 1400px) {
+  .card_heading {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .numbers {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .row_spacing {
+    margin-bottom: 24px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .custoner_left {
+    margin-bottom: 24px;
+  }
+  .profit_mar {
+    margin-top: 24px !important ;
+  }
+}

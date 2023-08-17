@@ -1,0 +1,44 @@
+.add-pro-cate-update {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.add-pro-cate-update .pro-cate-form-row-update {
+  display: flex;
+  justify-content: space-between;
+}
+.pro-cate-form-row-update .form-col {
+  width: 48%;
+}
+
+.pro-cate-form-row-update label.form-label {
+  font-weight: 400;
+  color: #8c9097;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+.pro-cate-form-row-update select,
+.pro-cate-form-row-update input {
+  color: #8c9097;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: #ced4da99;
+  padding: 8px 1rem;
+  font-size: 15px;
+  margin: 10px 0 20px 0;
+  border-radius: 0.35rem;
+}
+.pro-cate-form-row-update select:focus,
+.pro-cate-form-row-update input:focus {
+  color: #333333;
+  border-color: #1790d0;
+  box-shadow: none;
+}
+.pro-cate-form-row-update select::placeholder,
+.pro-cate-form-row-update input::placeholder {
+  color: #d3d3d3;
+}
+.pro-cate-form-row-update .upload-iconss {
+  margin-top: 10px;
+}

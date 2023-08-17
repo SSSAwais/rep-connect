@@ -1,0 +1,78 @@
+.admin-header {
+  padding: 1.1rem 25px 1.1rem 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background-color: white;
+}
+
+/* LEFT SIDE HEADER */
+.admin-left-side .head-icon {
+  font-size: 23px;
+  padding: 0 10px;
+  display: inline-block;
+  margin-right: 6px;
+  cursor: pointer;
+}
+/* RIGHT SIDE HEADER */
+.admin-header .admin-right-side ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-right-side .user-icon {
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.admin-right-side .title {
+  margin-bottom: 0;
+  font-size: 14px;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.admin-right-side .profile-drop-down-menu {
+  min-width: 150px;
+  width: 150px;
+  border-radius: 5px;
+  top: 8px !important;
+  border: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.profile-drop-down-menu .menu-list {
+  display: block;
+  padding: 0.65rem;
+  color: #333335;
+  white-space: unset;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.profile-drop-down-menu .menu-list:hover {
+  background-color: rgba(56, 56, 56, 0.027);
+  color: rgb(132, 90, 223);
+}
+
+.profile-drop-down-menu .menu-list span.icon {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .admin-header {
+    padding: 0.8rem 10px 0.8rem 0;
+  }
+  .admin-left-side .head-icon {
+    font-size: 20px;
+    padding-left: 5px;
+  }
+}

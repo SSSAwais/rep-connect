@@ -1,0 +1,25 @@
+.registation_wrapper {
+  padding: 30px 0px;
+}
+.account_details {
+  background: #f5f5f5 url("../../assets/images/register/pattern.png") repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  border-radius: 5px 5px 0 0;
+}
+.account_details h4 {
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.first_section {
+  border: 1px solid #eee;
+}

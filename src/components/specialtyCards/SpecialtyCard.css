@@ -1,0 +1,16 @@
+.specialty_cards_wrapper a {
+  text-decoration: none;
+  text-align: center;
+}
+.specialty_cards_wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #0095eb;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.specialty_cards_wrapper h2:hover {
+  color: #f05c5d;
+  text-decoration: underline;
+}

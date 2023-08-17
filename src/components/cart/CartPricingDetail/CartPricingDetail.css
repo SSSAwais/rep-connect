@@ -1,0 +1,205 @@
+.cart-sidebar {
+  width: 30% !important;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.cart--pricing--detail .title {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #1790d0;
+  text-align: center;
+}
+.cart--pricing--detail .sub-title {
+  color: #333333;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.cart-shpping,
+.subt--total {
+  padding: 20px 10px;
+}
+.subt--total {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.total-price {
+  clear: both;
+  padding: 20px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.total-price .amount {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 0;
+}
+.change-address {
+  position: relative;
+}
+.change-address .change-wrapp.hide {
+  display: none;
+}
+.change-address .change-wrapp.show {
+  display: block;
+}
+.shipping_proceed_btns .processed_btn,
+.change-address button {
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  background-color: #2754a4 !important;
+  color: #fff;
+  text-transform: capitalize;
+  border: none;
+  position: relative;
+  float: right;
+  display: block;
+}
+.shipping_proceed_btns .processed_btn::after,
+.change-address button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.13);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.shipping_proceed_btns .processed_btn:hover:after,
+.change-address button:hover:after {
+  width: 100%;
+}
+.change-address button {
+  margin: 20px 0 25px 0;
+}
+.shipping_proceed_btns .processed_btn {
+  width: 100%;
+  float: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.shipping_proceed_btns .continue_shopping {
+  color: rgba(0, 0, 0, 0.3);
+
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.shipping_proceed_btns .continue_shopping:hover {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: underline;
+}
+
+.change-address .sub-title {
+  float: right;
+}
+.change-address .change-wrapp {
+  clear: both;
+}
+.change-address h4:not(.shipping-to) {
+  color: #0095eb;
+  margin-top: 0.5em;
+  cursor: pointer;
+  text-underline-offset: 5px;
+  margin-bottom: 20px;
+}
+.change-address h4:not(.shipping-to):hover {
+  text-decoration: underline;
+  color: red;
+}
+.change-address .sub-title i {
+  color: #a8a8a8;
+  padding-left: 10px;
+}
+/* .change-address {
+  border-bottom: 1px solid #a8a8a8;
+  padding-bottom: 30px;
+} */
+.change-wrapp select,
+.change-wrapp input {
+  padding: 10px;
+  color: #777777;
+  border: 1px solid;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: #cdcdcd;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 5px;
+}
+.change-wrapp select:focus,
+.change-wrapp input:focus {
+  color: #333333;
+  background-color: rgba(255, 248, 220, 1);
+  border-color: #1790d0;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1430px) {
+  .cart--pricing--detail .sub-title {
+    font-size: 15px;
+  }
+  .cart-shpping,
+  .subt--total {
+    padding: 15px 7px;
+  }
+  .cart-sidebar {
+    padding: 20px;
+  }
+  .shipping_proceed_btns .processed_btn {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .cart-sidebar {
+    width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .cart-sidebar {
+    width: 100% !important;
+    margin: 50px auto auto auto;
+  }
+  .shipping_proceed_btns .continue_shopping,
+  .shipping_proceed_btns .processed_btn {
+    display: block;
+    width: fit-content;
+    padding: 12px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .shipping_proceed_btns .continue_shopping,
+  .shipping_proceed_btns .processed_btn {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .cart--item--foot button,
+  .shipping_proceed_btns .continue_shopping,
+  .shipping_proceed_btns .processed_btn {
+    width: 100%;
+    display: block;
+    padding: 8px 0;
+    border-radius: 0;
+  }
+  .cart--item--foot button {
+    margin: 15px 0 0 0;
+  }
+}

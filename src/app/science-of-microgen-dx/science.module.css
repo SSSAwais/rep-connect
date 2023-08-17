@@ -1,0 +1,108 @@
+.science_page_wrapper {
+  padding: 50px 0px;
+  margin: 0px 15px;
+}
+.science_page_wrapper .science_heading {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.science_page_wrapper .science_para_wrapper p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 400;
+}
+.science_heading h3 {
+  font-size: 25px;
+  line-height: 27px;
+  color: #1790d0;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.science_heading p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.download_button_science {
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.download_button_science a {
+  position: relative;
+  margin: 0 -8px;
+  float: left;
+}
+.download_button_science a {
+  background-color: #ffe357 !important;
+  color: #2754a4;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 16px;
+  overflow: hidden;
+  text-decoration: none !important;
+  cursor: pointer;
+  border-style: solid;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 3%),
+    inset 0px 4px 3px -2px rgb(0 0 0 / 7%);
+  /* white-space: nowrap; */
+}
+.download_button_science a span {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 5px 16px;
+  display: inline-block;
+  height: 40px;
+  margin-right: 15px;
+  padding-top: 8px;
+}
+.download_button_science a:hover :after {
+  width: 100%;
+}
+.download_button_science a span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+  .science_heading h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .science_heading h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .science_page_wrapper .science_para_wrapper p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .science_page_wrapper .science_heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .download_button_science a {
+    font-size: 14px;
+  }
+}

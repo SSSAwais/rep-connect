@@ -1,0 +1,112 @@
+.tutorial_wrapper {
+  margin: 0px 15px;
+  padding-bottom: 40px;
+}
+.tutorial_wrapper .status_getStarted {
+  display: flex;
+  background: #f0f3f6;
+  padding: 1em 0;
+  margin: 1em 0;
+  border-radius: 6px;
+  justify-content: space-around;
+  align-items: center;
+}
+.tutorial_row {
+  margin: 40px 0px;
+}
+.current_status,
+.get_started {
+  width: 50%;
+}
+.status_getStarted .current_status h6,
+.get_started h6 {
+  display: block;
+  color: #728188;
+  font-size: 0.75em;
+  font-weight: 700;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.status_getStarted .current_status p {
+  font-family: "Poppins", sans-serif;
+  background-color: #e83d5c !important;
+  /* background-color: #e2e7ed; */
+  text-align: center;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 11px;
+  border-radius: 12px;
+  color: white !important;
+  margin-bottom: 0px;
+}
+.get_started .button_course button {
+  font-family: "Poppins", sans-serif;
+
+  background-color: #2754a4 !important;
+  border-radius: 20px;
+  box-shadow: none;
+  text-transform: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  max-width: 385px;
+  white-space: nowrap;
+  text-shadow: none;
+  border: 0;
+  opacity: 1;
+  padding: 0.75em 1.5em;
+}
+.enrolled_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 36px; */
+  margin-bottom: 8px;
+}
+.current_status {
+  border-right: 2px solid #bec5cb;
+  padding: 0 1em;
+}
+.get_started {
+  padding: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video_guide p {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
+}
+
+@media screen and (max-width: 640px) {
+  .tutorial_wrapper .status_getStarted {
+    flex-direction: column;
+    /* padding: 0; */
+  }
+  .current_status {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e2e7ed;
+    padding: 1em 0;
+  }
+  .get_started {
+    padding: 1em 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .course_image_wrapper {
+    max-width: 100%;
+  }
+}

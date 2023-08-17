@@ -1,0 +1,13 @@
+.order_recived {
+  padding: 50px 0;
+  text-align: center;
+}
+.order_recived p {
+  margin: 50px 0 0 0;
+}
+@media screen and (max-width: 1400px) {
+  .order_recived {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -1,0 +1,110 @@
+.microInsider_wrapper,
+.insiderSubPageWrapper {
+  padding: 50px 0px;
+  margin: 0px 15px;
+}
+
+.row_margin {
+  margin-bottom: 40px;
+}
+
+.right_side_aside h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.layout01 {
+  position: absolute;
+  height: 100%;
+  background-color: #333333;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.imagepopup {
+  position: fixed;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+}
+
+.layout_column {
+  display: flex;
+  justify-content: center;
+}
+
+.btns_ctrl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin: -5px;
+  /* z-index: -1; */
+  border: 2px solid white;
+  background: black;
+  color: white;
+}
+
+.cancel {
+  text-align: end;
+  padding: 0 25px;
+}
+
+.cancel_btn {
+  background: border-box;
+  color: white;
+  border: none;
+}
+
+.cancel_btn:hover {
+  color: red !important;
+  transform: rotate(deg);
+}
+.comment_section h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #1790d0;
+  padding: 20px 0px;
+}
+
+.links_box .link_item {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+  border: 1px solid #d6d6d6;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: border 0.5s ease-in-out;
+}
+
+.links_box .link_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.links_box .link_item:hover {
+  border: 1px solid #a3a2a2;
+  transition: border 0.5s ease-in-out;
+}
+.links_box .link_item:hover img {
+  opacity: 0.8;
+}

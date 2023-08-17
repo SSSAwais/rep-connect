@@ -1,0 +1,14 @@
+.content_container {
+    height: 300px;
+    border: 1px solid #c6d2d9;
+    margin: 5px 0px;
+}
+
+.content {
+    color: #1790d0;
+    font-size: 25px;
+    line-height: 27px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    margin-top: 25px;
+}

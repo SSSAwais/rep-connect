@@ -1,0 +1,5 @@
+@media screen and (max-width: 460px) {
+  .MuiTableRow-root .MuiTableRow-footer .MuiTablePagination-root:last-child {
+    overflow-x: hidden !important;
+  }
+}

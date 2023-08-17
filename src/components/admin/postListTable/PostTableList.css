@@ -1,0 +1,13 @@
+.allPosts_wrapper tr td {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+}
+.allPosts_wrapper tr td:nth-child(4) {
+  font-size: 14px !important;
+  display: -webkit-box;
+  max-width: 100% !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 110px;
+}

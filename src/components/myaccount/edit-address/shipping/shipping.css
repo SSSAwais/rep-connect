@@ -1,0 +1,126 @@
+.add-shipping select,
+.add-shipping input {
+  padding: 10px;
+  color: #777777;
+  border: 1px solid;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: #cdcdcda1;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+.add-shipping select::placeholder,
+.add-shipping input::placeholder {
+  color: #c8c8c8;
+}
+.add-shipping select:focus,
+.add-shipping input:focus {
+  color: #333333;
+  background-color: rgba(255, 248, 220, 1);
+  border-color: #1790d0;
+  box-shadow: none;
+}
+
+.add-shipping .fullname .fullname-children {
+  width: 48%;
+}
+
+.add-shipping .form-row label {
+  line-height: 2;
+  margin: 10px 0;
+  font-weight: 400;
+  color: #333333;
+  font-size: 16px;
+}
+
+.add-shipping .form-row .required {
+  color: red;
+}
+
+.add-shipping .place-order {
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  background-color: #2754a4;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 20px 0 0 0;
+  position: relative;
+  border: none;
+}
+.add-shipping .title {
+  color: #1790d0;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  margin-bottom: 10;
+}
+
+.add-shipping .place-order::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.13);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.add-shipping .place-order:hover:before {
+  width: 100%;
+  transition: width 0.2s ease-in-out;
+}
+
+.add-shipping .errors-dev {
+  background-color: #fae9e8;
+  margin-bottom: 30px;
+  padding: 15px 25px;
+  color: #962317;
+}
+
+.add-shipping .errors-dev ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.add-shipping .errors-dev .icon {
+  padding: 0 35px 0 7px;
+}
+.add-shipping .errors-dev ul li::first-letter {
+  text-transform: capitalize;
+}
+.add-shipping .errors-dev .icon,
+.add-shipping .closed {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #de7b7b21;
+}
+.add-shipping .errors-dev .icon {
+  border: none;
+}
+.add-shipping .closed i {
+  transition: all 0.3s ease-in-out;
+}
+.add-shipping .closed:hover i {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .add-shipping .fullname .fullname-children {
+    width: 100%;
+  }
+}

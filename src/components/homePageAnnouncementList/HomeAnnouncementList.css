@@ -1,0 +1,32 @@
+li {
+  list-style-type: none;
+}
+.ann_listss_wrapper {
+  display: flex;
+  padding: 5px 0 10px !important;
+  border-bottom: 1px solid #eee;
+  margin: 0 0 8px !important;
+  align-items: center;
+}
+.ann_listss_wrapper img {
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+.annoucement_list a {
+  font-family: "Poppins", sans-serif;
+  background: none !important;
+  text-decoration: none;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 1.5em;
+  display: inline !important;
+  color: #1790d0;
+}
+.annoucement_list p {
+  color: #bbb;
+  font-size: 11px;
+  margin: 0px;
+}

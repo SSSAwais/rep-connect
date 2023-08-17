@@ -1,0 +1,23 @@
+.effectivaly_using_sale_material_wrapper {
+  padding-top: 30px;
+}
+.videoBox {
+  border: solid 1px #cccccc;
+  height: 444px;
+  margin-bottom: 40px;
+}
+.sale_material_video h4 {
+  font-family: "Poppins", sans-serif;
+  color: #1790d0;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 576px) {
+  .sale_material_video h4 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

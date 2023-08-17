@@ -1,0 +1,58 @@
+.tabs_wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.tabs_wrapper li {
+  list-style-type: none;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px !important;
+  color: #26bf94 !important;
+  line-height: 18px;
+  background-color: #e9f8f4 !important;
+  padding: 5px;
+  border: none;
+}
+.nav-pills .nav-link {
+  font-family: "Inter", sans-serif;
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 18px;
+  color: #333335 !important;
+  text-decoration: none;
+  padding: 5px;
+}
+.billing_wrapper .card_header {
+  padding: 11px 20px;
+  background-color: transparent !important;
+  border-block-end: 1px solid #f3f3f3;
+  display: flex !important;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.customer_heading {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333335;
+  font-weight: 700;
+}
+.billing_listing,
+.revenue_ {
+  margin: 0px;
+  padding: 0px;
+}
+.billing_listing li,
+.revenue_ li {
+  list-style-type: none;
+}
+.invoice_listing_items {
+  padding: 13px 20px;
+}

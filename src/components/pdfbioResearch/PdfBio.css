@@ -1,0 +1,50 @@
+.button_seciton_pdf .anchor_button {
+  background-color: #ffe357 !important;
+  color: #2754a4;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03),
+    inset 0px 4px 3px -2px rgba(0, 0, 0, 0.07);
+  position: relative;
+  padding: 10px 20px;
+  top: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #2754a4;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.button_seciton_pdf {
+  margin: 0 10px 15px 0;
+}
+.button_seciton_pdf .anchor_button:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.button_seciton_pdf .anchor_button:hover:after {
+  width: 100%;
+}
+.button_seciton_pdf a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2754a4;
+  line-height: 21px;
+}
+.icon_color {
+  color: white;
+}
+@media screen and(max-width:576px) {
+  .button_seciton_pdf .anchor_button {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

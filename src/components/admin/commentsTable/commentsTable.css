@@ -1,0 +1,128 @@
+.profile_detail {
+  margin-left: 10px;
+}
+.profile_detail p:nth-child(1) {
+  color: #50575e;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.profile_detail a span {
+  cursor: pointer;
+  margin-left: 8px;
+}
+.profile_detail a span i {
+  color: #50575e;
+}
+.profile_detail a {
+  color: #2271b1;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  display: block;
+  text-decoration: none;
+}
+.profile_detail a:nth-child(3) {
+  font-size: 11px;
+}
+.commentss p:nth-child(1) {
+  display: flex;
+}
+.commentss p:nth-child(1) a {
+  margin-left: 5px;
+}
+.commentss p {
+  margin-bottom: 0px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #50575e;
+  font-weight: 400;
+}
+.commentss p a {
+  color: #2271b1;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+  display: block;
+}
+.inresponse a {
+  color: #2271b1;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+  display: block;
+}
+.total_comment {
+  position: relative;
+  display: inline-block !important;
+}
+.total_comment i {
+  font-size: 26px;
+}
+
+.total_comment span {
+  position: absolute;
+  left: 9px;
+  color: white;
+  z-index: 999999;
+  font-size: 11px;
+  top: 1px;
+}
+.inresponse p {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #043959;
+  margin-bottom: 0px;
+}
+.date_submit,
+.subs {
+  font-size: 13px;
+  line-height: 20px;
+  color: #043959;
+  font-weight: 400;
+  margin: 0px;
+}
+.secondComments p a {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  /* border-right: 1px solid #a7aaad; */
+}
+.secondComments p span:nth-child(6) {
+  border-right: 0px;
+}
+.secondComments {
+  display: none;
+}
+.all_Comments_section table tbody tr:hover .secondComments {
+  display: block;
+}
+.all_Comments_section table tbody tr {
+  vertical-align: top !important;
+}
+.all_Comments_section table tbody tr:nth-child(odd) {
+  background-color: #f6f7f7;
+}
+.secondComments p {
+  margin-bottom: 0px;
+}
+.secondComments p a:nth-child(1) {
+  color: #996800;
+}
+.secondComments p a:nth-child(3),
+.secondComments p a:nth-child(4) {
+  color: #043959;
+}
+.secondComments p a:nth-child(5),
+.secondComments p a:nth-child(3) {
+  color: #b32d2e;
+}
+.approve {
+  color: #007017;
+}
+.all_Comments_section table tr td:nth-child(2) {
+  width: 32% !important;
+  height: 115px !important;
+}

@@ -1,0 +1,21 @@
+.image_ {
+  margin-top: 20px;
+}
+.image_ img {
+  border-radius: 50%;
+}
+.form_category label,
+.image_ label {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #8c9097;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.form_category,
+.image_ {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem !important;
+}

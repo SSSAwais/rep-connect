@@ -1,0 +1,41 @@
+.invoiceListing_anchor {
+  text-decoration: none;
+}
+.invoice_left_wrapper h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333335;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.invoice_left_wrapper {
+  position: relative;
+}
+.invoice_left_wrapper p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #26bf94;
+  line-height: 18px;
+  margin-bottom: 0px;
+}
+.invoice_left_wrapper span i {
+  margin-right: 8px;
+}
+.invoice_right_wrapper h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #26bf94;
+  margin-bottom: 4px;
+}
+.invoice_right_wrapper p {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  color: #8c9097;
+  font-weight: 400;
+  margin-bottom: 0px;
+}

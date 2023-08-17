@@ -1,0 +1,19 @@
+.product_deail_page {
+  padding: 50px 0;
+}
+.product_deail_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px) {
+  .product_deail_page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .product_deail_wrapper {
+    flex-direction: column;
+  }
+}

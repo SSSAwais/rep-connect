@@ -1,0 +1,93 @@
+.SlideActionButton {
+  height: 40px;
+  width: 40px;
+  font-size: 1.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b2943;
+  color: white;
+  transition: ease-in 0.2s;
+  border: none;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.SlideActionButton:hover {
+  box-shadow: 0 0 0 1px #5f7e97;
+  cursor: pointer;
+  color: #a799ff;
+}
+.SlideActionButton:disabled {
+  box-shadow: 0 0 0 0 #5f7e97;
+  color: rgba(255, 255, 255, 0.15);
+  background: #0b2943;
+  cursor: not-allowed;
+}
+.SlideActionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.SlideNumber {
+  position: absolute;
+  font-size: 0.85rem;
+  bottom: 5px;
+  right: 0.75rem;
+  left: 5%;
+}
+.SlideText {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.SlideTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+  line-height: 1.25;
+}
+.SlideContent {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.SlideContent img {
+  max-width: 300px;
+  height: 250px;
+}
+.Slide {
+  background: #0b2943;
+  border: 1px solid #5f7e97;
+  border-radius: 0.25rem;
+  color: white;
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.FullScreen {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #011627;
+  padding: 1rem;
+}
+.main_wrapper {
+  max-width: 370px !important;
+  height: 240px;
+}
+@media screen and (max-width: 992px) {
+  .main_wrapper {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .SlideContent img {
+    max-width: 250px;
+    height: 250px;
+  }
+}

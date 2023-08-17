@@ -1,0 +1,59 @@
+.breadcrum_wrapper {
+  background-color: rgba(23, 144, 208, 1);
+  padding: 30px 0;
+}
+.bread_details .heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.bread_details ol a,
+.bread_details ol li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.bread_details ol a:hover {
+  text-decoration: underline;
+}
+
+.breadcrum_wrapper .breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .bread_details .heading {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .bread_details ol a,
+  .bread_details ol li {
+    font-size: 15px;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumsss-class {
+    display: none;
+  }
+  .bread_details .heading {
+    margin-bottom: 0;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .bread_details .heading {
+    font-size: 15px;
+  }
+}

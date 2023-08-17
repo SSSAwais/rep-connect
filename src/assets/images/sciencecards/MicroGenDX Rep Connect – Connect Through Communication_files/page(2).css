@@ -1,0 +1,168 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./src/components/universityCourse/UniversityCourse.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+.list_of_courses {
+  padding: 20px;
+  border: 2px solid #e2e7ed;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: #fff;
+  margin: 2em 0 1em 0;
+}
+.list_of_courses a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+  color: #495255;
+  display: flex;
+}
+.list_of_courses a:hover {
+  color: #2754a4;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[3]!./src/app/microgen-dx-university/university.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.university_mircoUniversity_wrapper__tMfDI,
+.university_course_wrapper_section__ycv0a {
+  padding-top: 30px;
+  margin: 0px 30px;
+}
+.university_course_wrapper_section__ycv0a {
+  padding-bottom: 20px;
+}
+.university_university_wrapper__17_su {
+  text-align: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB {
+  padding: 30px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+.university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB h2 {
+  font-family: "Poppins", sans-serif;
+  color: #2754a4;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+.university_mircoUniversity_wrapper__tMfDI .university_fancy_heading__hIDVj {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.university_mircoUniversity_wrapper__tMfDI .university_fancy_heading__hIDVj h2 {
+  font-family: "Poppins", sans-serif;
+  color: #2754a4;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.08); */
+  /* margin-bottom: 40px; */
+}
+.university_fancy_heading__hIDVj {
+  background-image: url(/_next/static/media/fancy_heading_hr.b426d20f.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  padding-bottom: 15px;
+}
+.university_sales_focussed__6AhM_ h3,
+.university_general_training__wBg0X h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.university_sales_focussed__6AhM_ {
+  margin-bottom: 40px;
+}
+.university_general_training__wBg0X ul,
+.university_sales_focussed__6AhM_ ul {
+  padding-left: 0px;
+}
+.university_general_training__wBg0X ul li,
+.university_sales_focussed__6AhM_ ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.university_general_training__wBg0X ul li a,
+.university_sales_focussed__6AhM_ ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #0095eb;
+}
+.university_general_training__wBg0X ul li a:hover {
+  color: #f05c5d;
+  text-decoration: underline;
+}
+.university_mircoUniversity_wrapper__tMfDI .university_row_section_uni__c3G5x,
+.university_train_section__r5YCP {
+  margin: 30px 0px;
+}
+.university_mircoUniversity_wrapper__tMfDI .university_train_section__r5YCP {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+  .university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB h2 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB h2,
+  .university_mircoUniversity_wrapper__tMfDI .university_fancy_heading__hIDVj h2 {
+    font-size: 34px;
+  }
+  .university_row_section_uni__c3G5x {
+    margin: 0px 0px;
+  }
+  /* .mircoUniversity_wrapper .train_section {
+    margin: 15px 0px;
+  } */
+  .university_general_training__wBg0X,
+  .university_sales_focussed__6AhM_ {
+    margin-bottom: 20px;
+  }
+  .university_mircoUniversity_wrapper__tMfDI .university_train_section__r5YCP {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB h2,
+  .university_mircoUniversity_wrapper__tMfDI .university_fancy_heading__hIDVj h2 {
+    font-size: 30px;
+  }
+  .university_mircoUniversity_wrapper__tMfDI {
+    margin: 0px 20px;
+  }
+  .university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB {
+    padding: 15px 0px;
+  }
+  .university_university_wrapper__17_su {
+    padding-bottom: 20px;
+  }
+  .university_mircoUniversity_wrapper__tMfDI .university_fancy_heading__hIDVj {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .university_mircoUniversity_wrapper__tMfDI .university_uni_heading__NwOFB h2 {
+    font-size: 22px;
+  }
+}
+

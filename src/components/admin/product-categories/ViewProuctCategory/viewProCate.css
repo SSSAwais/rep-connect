@@ -1,0 +1,36 @@
+.add-pro-cate-view {
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.add-pro-cate-view .pro-cate-form-row-view {
+  display: flex;
+  justify-content: space-between;
+}
+.pro-cate-form-row-view .form-col {
+  width: 48%;
+}
+
+.pro-cate-form-row-view label.form-label {
+  font-weight: 400;
+  color: #8c9097;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+.pro-cate-form-row-view .disc p {
+  color: #8c9097;
+  background-color: rgb(247 247 247);
+  padding: 8px 1rem;
+  font-size: 15px;
+  margin: 10px 0 20px 0;
+  border-radius: 0;
+}
+
+.pro-cate-form-row-view .upload-iconss {
+  margin-top: 10px;
+}
+.pro-cate-form-row-view .upload-iconss img {
+  object-fit: cover;
+}

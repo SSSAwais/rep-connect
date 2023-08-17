@@ -1,0 +1,30 @@
+.products-shop {
+  width: 100%;
+
+  padding-right: 30px;
+}
+
+.products-shop .product_gr__items .product--gr--link img {
+  padding: 0 !important;
+}
+@media screen and (max-width: 1025px) {
+  .products-shop {
+    width: 100%;
+  }
+  .products-shop .product_gr__items .product--gr--link img {
+    max-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .products-shop {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .products-shop {
+    width: 100%;
+  }
+}

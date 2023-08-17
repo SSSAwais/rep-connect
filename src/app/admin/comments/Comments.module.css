@@ -1,0 +1,78 @@
+.selectB {
+  border: 1px solid #2271b1 !important;
+}
+.filterButton {
+  color: #2271b1;
+  background: #f6f7f7;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 1px solid #2271b1;
+  padding: 7px 22px;
+}
+.selectB:focus {
+  outline: none !important ;
+  box-shadow: none !important;
+}
+.add_newButton {
+  text-align: end;
+}
+.add_newButton button {
+  padding: 4px 8px;
+  position: relative;
+  top: -3px;
+  text-decoration: none;
+  border: 1px solid #2271b1;
+  border-radius: 2px;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: #2271b1;
+  background: #f6f7f7;
+  cursor: pointer;
+}
+.postName input {
+  padding: 3px 5px;
+  font-size: 14px;
+  line-height: 100%;
+  width: 100%;
+  outline: 0;
+  margin: 0 0 3px;
+  background-color: #fff;
+  height: 2.7em;
+}
+.postName input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.updateee {
+  padding: 0.5rem 0.85rem;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 0.35rem;
+  color: rgb(132, 90, 223);
+  background: #f2eefc;
+}
+.updateee:hover {
+  color: white;
+  background: #845adf;
+}
+.bg_upate {
+  background: white;
+  border-radius: 8px;
+  padding: 20px 15px;
+}
+.postName,
+.sunEditor {
+  margin-bottom: 15px;
+}
+.heading_section h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #333333;
+ 
+}

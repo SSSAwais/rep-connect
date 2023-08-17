@@ -1,0 +1,30 @@
+.tagSubmit {
+  border: none;
+}
+.tagRow {
+  margin-top: 15px !important;
+}
+.tagssName,
+.tagDispp {
+  border-radius: 0.5rem;
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0 rgba(10, 10, 10, 0.04);
+
+  padding: 16px 20px;
+}
+.tagssName label,
+.tagDispp label {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #8c9097;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+.errorMsg {
+  color: red;
+  font-size: 12px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}

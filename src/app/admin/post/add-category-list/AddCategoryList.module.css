@@ -1,0 +1,86 @@
+.form_category,
+.form_category2 {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem !important;
+}
+.drapFile {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  position: relative;
+  overflow: hidden;
+}
+.file_upload {
+  display: inline-block;
+  width: 100% !important;
+  padding: 120px 0 0 0;
+  height: 100px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png")
+    center center no-repeat #e4e4e4;
+  border-radius: 20px;
+  background-size: 60px 60px;
+  font-size: 0px !important;
+  color: #fff !important;
+}
+.file_upload::-webkit-file-upload-button {
+  display: none;
+}
+.file_upload ::file-selector-button {
+  display: none;
+}
+.background_image {
+  position: absolute !important;
+  border-radius: 8px;
+  top: 0px !important;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.file_upload:focus {
+  font-size: 0px !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  overflow: hidden;
+}
+.cross_icon {
+  color: white;
+  cursor: pointer;
+  float: right;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+.laaabeel label,
+.form_category label {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #8c9097;
+  font-weight: 400;
+}
+.btn_row {
+  margin-top: 25px;
+}
+.submit_ {
+  border: none;
+}
+.form_category select:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.errormessage {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.img_radius img {
+  border-radius: 50%;
+  margin-top: 15px;
+}

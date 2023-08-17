@@ -1,0 +1,58 @@
+.compliance_page {
+  padding: 50px 0;
+}
+.complaince_section {
+  padding-top: 40px;
+}
+.row_margin {
+  margin-bottom: 40px;
+}
+.row_margin:nth-child(1) {
+  padding-top: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.row_margin .insider_image_wrapper {
+  float: left !important;
+}
+.compliance__wrap__top .compliance_content {
+  width: 75%;
+  padding-right: 30px;
+}
+.compliance_content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 26px;
+  text-align: justify;
+}
+/* .ComplianceAsideWidget {
+  width: 25%;
+} */
+
+@media screen and (max-width: 1400px) {
+  .compliance_page {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .compliance__wrap__top .compliance_content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .compliance__wrap__top .compliance_content {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .compliance__wrap__top {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .compliance__wrap__top .compliance_content {
+    width: 100%;
+  }
+}

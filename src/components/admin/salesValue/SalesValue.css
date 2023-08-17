@@ -1,0 +1,52 @@
+.card_header {
+  padding: 16px 20px;
+  background-color: transparent !important;
+  -webkit-border-after: 1px solid #f3f3f3;
+  border-block-end: 1px solid #f3f3f3;
+  display: flex !important;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.card-title {
+  margin-bottom: 0px;
+}
+.card-title h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333335;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.increase_per {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #845adf;
+  font-weight: 600;
+}
+.increased__ {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333335;
+  font-weight: 400;
+}
+.sales_items_increease {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  color: #8c9097;
+  font-weight: 400;
+}
+.sales_items_increease .badge {
+  font-family: "Inter", sans-serif;
+  background: #e9f8f4;
+  padding: 4px;
+  font-size: 11px;
+  line-height: 11px;
+  color: #26bf94;
+  font-weight: 600;
+}

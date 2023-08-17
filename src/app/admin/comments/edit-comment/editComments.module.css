@@ -1,0 +1,64 @@
+.main_wrapppper {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dfdfdf;
+  padding: 4px 8px;
+}
+
+.main_wrapppper h6 {
+  margin-bottom: 0px;
+}
+.title_section {
+  padding: 8px 0px;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.title_section h6,
+.firstRow label,
+.second_roww label,
+.third_roww label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #1d2327;
+}
+.firstRow,
+.second_roww,
+.third_roww {
+  padding: 10px 0px;
+}
+.firstRow input,
+.second_roww input,
+.third_roww input {
+  border: 1px solid #8c8f94;
+}
+.firstRow input:focus,
+.second_roww input:focus,
+.third_roww input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.commentsHeading h4 {
+  padding: 1rem 0rem;
+  font-size: 23px;
+  line-height: 30px;
+  color: #1d2327;
+  font-weight: 400;
+}
+.update_button .updatee {
+  font-size: 15px;
+  border-radius: 0.35rem;
+  padding: 0.5rem 1rem;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  background: rgb(132 90 223 / 28%);
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  text-transform: capitalize;
+  border: none;
+}
+.update_button .updatee:hover {
+  background-color: rgb(130 87 225);
+  color: #fff;
+  border-color: 132, 90, 223;
+}

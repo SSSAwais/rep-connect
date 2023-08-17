@@ -1,0 +1,24 @@
+.profite_wrapper .listing_number {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  line-height: 28px;
+  color: #333335;
+  font-weight: 600;
+  background-color: #f3f6f8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+@media screen and (max-width: 768px) {
+  .profite_wrapper .cateeegoryName {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333335;
+    font-weight: 600;
+  }
+}

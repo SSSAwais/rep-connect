@@ -1,0 +1,140 @@
+.filter-list {
+  padding: 15px;
+}
+
+.filter-column {
+  padding: 30px 0;
+}
+
+.main-filter {
+  align-items: center;
+}
+.reset li,
+.filter-list li {
+  padding-right: 25px;
+  color: #0095eb;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 21px;
+  list-style: none;
+}
+.filter-list li.active {
+  color: #f05c5d;
+}
+.filter-list li span {
+  padding: 0 5px;
+}
+
+.reset li:hover,
+.filter-list li:hover {
+  color: #f05c5d;
+}
+
+.filter-list li.active span,
+.reset li:hover span,
+.filter-list li:hover span {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.filter-list li.filtername {
+  color: #a8a8a8;
+  cursor: auto;
+}
+.reset li span {
+  padding-left: 10px;
+}
+.filter-tabs {
+  width: calc(100% - 40px);
+}
+.close-colum-filter {
+  width: 40px;
+  margin-top: 0.5%;
+}
+.filter-tabs ul li {
+  padding: 0;
+  display: inline-block;
+  width: auto;
+  margin: 0.5%;
+}
+.filter-tabs ul.filter-listeed {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 40px;
+}
+.filter-tabs ul li a {
+  display: inline-block;
+  padding: 7px 10px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  color: #858585;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-size: 15px;
+}
+.filter-tabs ul li:hover a {
+  background-color: #2754a4;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.filter-tabs ul li.active a {
+  background-color: #2754a4;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.close-filter-btn {
+  text-align: center;
+  width: 38px;
+  padding: 7px 7px 4px 7px;
+  background: #8b8b8b;
+  border: 1px solid #f7f7f7 !important;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.close-filter-btn:hover {
+  background-color: #545454;
+}
+@media screen and (max-width: 768px) {
+  .filter-list {
+    padding: 15px 0;
+  }
+  .reset li,
+  .filter-list li {
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main-filter {
+    align-items: normal;
+  }
+
+  .main-filter .reset {
+    text-align: end;
+    padding-bottom: 15px;
+  }
+  .filter-list li.filtername {
+    display: none;
+  }
+  .filter-tabs ul li a {
+    padding: 5px 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .reset li,
+  .filter-list li {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,46 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./src/components/generalAbsPosts/GeneralAbsPosts.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.training_video_frame {
+  border: solid 1px #cccccc;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.genreal_training_wrapper {
+  margin-bottom: 30px;
+}
+.genreal_training_wrapper h3 {
+  font-family: "Poppins", sans-serif;
+  color: #1790d0;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .genreal_training_wrapper h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genreal_training_wrapper {
+    margin-bottom: 20px;
+  }
+  .genreal_training_wrapper h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[8].use[3]!./src/app/general-traning/style.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.style_training_wrapper___5T9hO {
+  padding: 30px 0px;
+  margin: 0px 15px;
+}
+

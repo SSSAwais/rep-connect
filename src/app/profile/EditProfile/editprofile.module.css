@@ -1,0 +1,371 @@
+.profile_area {
+  background-image: url("../../../assets/images/Profile/login-bg.jpg");
+  width: 100%;
+  height: 250px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.profile_container {
+  border-radius: 5px;
+  background: #fff;
+  color: #666;
+  border: 1px solid #eee;
+  margin: 35px 0;
+}
+
+.btn_span {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  right: 20px;
+}
+
+.logout_btn {
+  font-weight: 300;
+  font-size: medium;
+  font-size: 13px;
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 15px;
+  float: right;
+  border: 1px solid #eee;
+}
+
+.loginAreaDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.logImg {
+  border-radius: 50%;
+}
+
+.editprofile {
+  color: #666 !important;
+  border: solid 1px #ddd !important;
+  box-shadow: inset 0 2px rgb(255 255 255 / 80%) !important;
+  background: #fff !important;
+  /* background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#fff)) !important; */
+  background: -moz-linear-gradient(0% 0% 270deg, #f8f8f8, #fff) !important;
+  -webkit-appearance: none;
+  font-weight: normal !important;
+  font-size: small !important;
+}
+.email a {
+  text-decoration: none;
+}
+.email a i {
+  background: #333;
+  color: white;
+  padding: 5px;
+  height: 33px;
+  border-radius: 50%;
+  width: 33px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email a i:hover {
+  background: #fff !important;
+  border: 1px solid #fff;
+  color: black;
+}
+
+.accordion_btn::after {
+  display: none !important;
+}
+
+.icons {
+  padding: 8px 10px;
+}
+
+.accordion_section {
+  padding: 0 15px;
+}
+
+.inactive01:focus {
+  z-index: 3;
+  border-color: none;
+  outline: none !important;
+  /* box-shadow:; */
+}
+
+.accordion_btn {
+  padding: 0px 10px !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+.inactive01 {
+  background-color: #333 !important;
+  color: #eee !important;
+}
+
+.active {
+  background-color: #eee !important;
+  color: #333 !important;
+}
+
+.inputtt_seclect {
+  padding: 0 8px !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border: 1px solid #ddd !important;
+  box-shadow: inset 0 -1px 4px #eee !important;
+  color: black !important;
+}
+.secondInput {
+  padding: 0 8px !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  background: #f5f5f5 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: inset 0 -1px 4px #eee !important;
+  color: #aaa !important;
+}
+.edit_prfile_page_main_wrapper .profile_row input:focus,
+.secondInput:focus,
+.profile_row textarea:focus,
+.input:focus {
+  background-color: white !important;
+  color: black !important;
+  outline: 0 !important;
+}
+.input {
+  padding: 0 8px !important;
+  height: 30px px !important;
+  border-radius: 3px !important;
+  background: #f5f5f5 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: inset 0 -1px 4px #eee !important;
+  color: #aaa !important;
+}
+
+.profilePic {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: baseline;
+}
+
+.profile_row {
+  margin: 15px 0;
+}
+
+.label {
+  padding: 0px 35px !important;
+  float: left;
+  margin-right: 8px !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  word-wrap: break-word !important;
+  /* padding: 0 !important; */
+}
+
+.camIcon {
+  background-color: #f5f5f5;
+  color: #aaa;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.upload_pic {
+  cursor: pointer;
+  height: 27px !important;
+  color: #666 !important;
+  border: solid 1px #ddd !important;
+  box-shadow: inset 0 2px rgba(255, 255, 255, 0.8) !important;
+  background: #fff !important;
+  background: -moz-linear-gradient(0% 0% 270deg, #f8f8f8, #fff) !important;
+  -webkit-appearance: none;
+  font-size: 12px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/* .photooo {
+  position: fixed;
+  top: 200px;
+  z-index: 11111111;
+  right: 0px;
+  left: 40%;
+  bottom: 0px;
+  height: 200px;
+} */
+.remove,
+.removeUpload {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #fff !important;
+  border: solid 1px #bd3d3d !important;
+  box-shadow: inset 0 1px #e16565 !important;
+  background: #ae3434 !important;
+  -webkit-appearance: none;
+  border: none;
+  padding: 2px 10px;
+  margin-right: 10px;
+}
+.img_area {
+  margin-bottom: 15px;
+}
+
+.click_photo {
+  font-family: "Poppins", sans-serif;
+  height: 27px !important;
+  color: #eee !important;
+  border: solid 1px #ddd !important;
+  /* box-shadow: inset 0 2px rgba(255,255,255, .8) !important; */
+  background: #333 !important;
+  background: -moz-linear-gradient(0% 0% 270deg, #333, #333) !important;
+  -webkit-appearance: none;
+  font-size: 12px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.input:focus {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+.textarea01 {
+  padding: 0 8px !important;
+  /* height: 30px !important; */
+  border-radius: 3px !important;
+  background: #f5f5f5 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: inset 0 -1px 4px #eee !important;
+  color: #aaa !important;
+}
+
+.radio_input {
+  margin: 0px 7px;
+}
+
+.iconLabel {
+  float: left;
+  margin-right: 8px !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  word-wrap: break-word !important;
+}
+
+.check_box_label {
+  align-items: center;
+  margin-left: 15px;
+  color: #888 !important;
+  display: inline-block;
+  font-weight: normal !important;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.btns_row {
+  margin: 10px 0;
+}
+
+.accordion_item01 {
+  margin: 15px 0px;
+}
+
+.tickIcon {
+  position: relative;
+}
+
+.tickIcon01 {
+  position: absolute;
+  top: 0px;
+  right: 6px;
+  color: green;
+  font-size: 20px;
+}
+
+.save_changes {
+  font-size: 13px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03),
+    inset 0px 4px 3px -2px rgba(0, 0, 0, 0.07);
+  /* height: 30px !important; */
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.upload_pic02 {
+  font-size: 13px;
+  border: 1px solid #ddd !important;
+  border: none;
+  background-color: white;
+  color: #333;
+  padding: 5px 12px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.err {
+  color: red;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.accordion_item01 button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.profile_row:hover .camIcon {
+  background-color: #666666;
+  color: white;
+}
+.following_section {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.following_section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444;
+  font-weight: 300;
+}
+.padding_view {
+  padding: 0px 25px;
+}
+.btn_span button:hover {
+  background: #444;
+  color: white;
+}
+@media screen and (max-width: 1100px) {
+  .photooo {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .photooo {
+    left: 20%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .photooo {
+    left: 15%;
+  }
+}
+
+.gender_area {
+  display: flex;
+  justify-content: space-around;
+}

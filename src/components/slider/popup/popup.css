@@ -1,0 +1,95 @@
+.main_wrapper_pop {
+  position: relative;
+}
+.popup_wrapper {
+  padding: 30px;
+  background: #e9e9e9;
+  max-width: 530px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 11111;
+  top: 20%;
+  left: 0px;
+  right: 0px;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
+}
+.pop_first_section {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d0;
+}
+.pop_first_section h4 {
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #646464;
+}
+.social_links {
+  padding-top: 20px;
+  display: flex;
+}
+.social_links .facebook,
+.social_links .twittter,
+.social_links .linkedinn {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 20px 0 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.social_links .facebook {
+  background: #3957a1;
+  color: white !important;
+}
+.social_links .twittter {
+  background: #03a9f7;
+  color: white !important;
+}
+.social_links .linkedinn {
+  background-color: #007eba;
+  color: white !important;
+}
+.input_links .embed {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wordpressShortCut,
+.link {
+  padding-bottom: 20px;
+}
+.popup_wrapper label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  padding: 0 0 10px 0;
+  color: #4d4d4d;
+}
+.pop_first_section i {
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .popup_wrapper {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .popup_wrapper {
+    max-width: 300px;
+  }
+}

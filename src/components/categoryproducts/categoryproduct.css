@@ -1,0 +1,21 @@
+.product_listing {
+  width: 100%;
+}
+.product--items--wrapper {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+  .product_listing {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product_listing {
+    width: 100%;
+  }
+  .product--items--wrapper {
+    padding-right: 0;
+  }
+}

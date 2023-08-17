@@ -1,0 +1,173 @@
+.home_page {
+  padding-top: 30px;
+  margin: 0px 30px;
+}
+.welcome_note p {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+.welcome_note h2 {
+  font-family: "Poppins", sans-serif;
+  color: #3596cc;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+.search_home input {
+  padding-left: 35px;
+  border-radius: 0px;
+}
+.search_home input:focus {
+  outline: 0;
+  box-shadow: none;
+  background-color: rgba(255, 248, 220, 1);
+}
+.search_home {
+  position: relative;
+  /* margin-top: 15px; */
+}
+
+.search_home i {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #333333;
+}
+.cancelIcon {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.3);
+  width: 25px;
+  height: 25px;
+  transition: all 0.3s ease-in-out;
+}
+.cancelIcon i:hover {
+  transition: all 0.3s ease-in-out;
+  transform: rotate(180deg);
+}
+.social_media_icon i {
+  font-size: 30px;
+  width: 30px;
+  /* height: 30px; */
+  color: #0095eb;
+  margin: 0px 8px;
+  cursor: pointer;
+}
+.social_media_icon i:hover {
+  color: red;
+}
+.homeLeftSide .banner_img {
+  width: 600px;
+  height: 67px;
+}
+.bottomPosts {
+  margin: 15px 30px;
+}
+.homeRightSide {
+  margin: 30px 0;
+}
+.homeRightSide h3 {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  color: #1790d0;
+}
+.image_Wrapper_top img {
+  border: 1px solid #eee !important;
+  box-shadow: none !important;
+  margin: 2px 10px 2px 0 !important;
+  /* padding: 5px !important; */
+}
+.post_image_right_side {
+  padding: 5px !important;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40px;
+}
+
+.post_image_right_side h3 {
+  font-family: "Poppins", sans-serif;
+  background: none !important;
+  clear: none;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 21px;
+}
+.post_image_right_side h3 a {
+  text-decoration: none;
+  color: #1790d0 !important;
+}
+.post_image_right_side h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+}
+.media_video h3 {
+  font-size: 18px;
+}
+.question_section {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.question_section a {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #2754a4 !important;
+  color: #ffffff;
+  background-color: #2754a4 !important;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  text-decoration: none !important;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.question_section a span {
+  margin-right: 10px;
+}
+.question_section a:hover:after {
+  width: 100%;
+}
+.question_section a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.announcement_list ul {
+  padding-left: 0px;
+}
+.question_section a:hover {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .social_media_icon {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .home_page,
+  .bottomPosts {
+    margin: 0px 20px;
+  }
+}

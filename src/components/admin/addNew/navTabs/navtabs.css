@@ -1,0 +1,6 @@
+button {
+  width: max-content !important;
+}
+button.nav-link {
+  background-color: blue !important;
+}

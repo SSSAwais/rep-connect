@@ -1,0 +1,118 @@
+.form-edit-content .name-width {
+  width: 47%;
+}
+
+.form-edit-content button {
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  background-color: #2754a4;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  position: relative;
+  border: none;
+  margin-top: 10px;
+}
+
+.form-edit-content button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.13);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.form-edit-content button:hover:before {
+  transition: width 0.2s ease-in-out;
+  width: 100%;
+}
+.form-edit-content button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.form-edit-content span {
+  color: #333333;
+}
+.form-edit-content label {
+  color: #333333;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 10px !important;
+  font-weight: 500;
+  line-height: 22px;
+  margin-top: 20px;
+}
+.form-edit-content input {
+  box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.02);
+  padding: 10px;
+  border-radius: 0;
+  border: 1px solid #cdcdcd;
+  color: #777777;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: #cdcdcd;
+}
+.form-edit-content input:focus {
+  color: #333333;
+  background-color: rgba(255, 248, 220, 1);
+  border-color: #1790d0;
+  box-shadow: none;
+}
+.form-edit-content label span.required {
+  color: red;
+  font-weight: 700;
+  opacity: 0.6;
+}
+.form-edit-content .pass-changed-title {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.current-password .hideed,
+.current-password .showed,
+.new-password .hideed,
+.new-password .showed,
+.confirm-password .hideed,
+.confirm-password .showed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.new-pass-sec .password-strength {
+  text-align: center;
+  font-weight: 600;
+  padding: 3px 0.5em;
+  font-size: 1em;
+}
+.new-pass-sec .password-strength.short {
+  background-color: #fbc5a9;
+  border-color: #f78b53;
+}
+.new-pass-sec .password-strength.medium {
+  background-color: #ffe399;
+  border-color: #ffc733;
+}
+.new-pass-sec .password-strength.strong {
+  background-color: #c1e1b9;
+  border-color: #83c373;
+}
+@media screen and (max-width: 767px) {
+  .form-edit-content .name-width {
+    width: 100%;
+  }
+}

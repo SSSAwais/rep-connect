@@ -1,0 +1,164 @@
+.technology_section {
+    padding: 0 100px;
+}
+
+.text_area {
+    font-size: .75em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 1em;
+    font-weight: 700;
+    color: #2754a4;
+}
+
+
+.progress_row {
+    margin-top: 100px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #f0f3f6;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+.tech {
+    margin: 10px 0;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #2754a4;
+
+}
+
+.drive {
+    color:#00c684 !important
+}
+.status {
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 11px;
+    line-height: 1.1;
+    color: #fff;
+    display: block;
+    background: #2754a4;
+}
+
+.files_area {
+    display: flex;
+    font-size: 12px;
+}
+
+.files_area > :nth-child(1)  {
+    margin-right: 10px;
+}
+
+.download_area {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.files {
+    margin: 15px 0px;
+    padding: 15px 0px;
+    background: #f0f3f6;
+    border-radius: 6px;
+}
+.download {
+    padding: 0 15px;
+    margin: 5px 0px;
+}
+.download_btn {
+    width: 100%;
+    background: #2754a4;
+    color: white;
+    padding: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.pdf_btn {
+    background : content-box;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.icon02 {
+    margin-right: 13px;
+}
+
+.lesson_btn {
+    background: #2754a4;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 25px;
+    font-weight: 600;
+}
+
+.btn_area {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+
+.status_btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #00c684;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+
+}
+
+.course {
+    text-align: center;
+    font-size: .75em;
+    color: #2754a4;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .technology_section {
+        padding: 0 50px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .technology_section {
+        padding: 0px 30px;
+    }
+    .btn_area {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    .progress_row {
+        display: flex;
+        flex-direction: column;
+    }
+    .status_container {
+        width: 100% !important;
+    }
+  }

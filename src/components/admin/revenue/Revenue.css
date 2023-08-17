@@ -1,0 +1,36 @@
+.process p {
+  font-family: "Inter", sans-serif;
+
+  /* background-color: rgb(73, 182, 245); */
+  padding: 4px 8px;
+  font-size: 10px;
+  line-height: 10px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.revenue_right_wrapper h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #333335;
+  margin-bottom: 4px;
+}
+.revenue_right_wrapper p {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #8c9097;
+  margin-bottom: 2px;
+}
+.blue {
+  background-color: #49b6f5;
+}
+.green {
+  background-color: #26bf94;
+}
+.yellow {
+  background-color: #f5b849;
+}

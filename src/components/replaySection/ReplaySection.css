@@ -1,0 +1,108 @@
+.leave_replay_section {
+  padding: 40px 0px !important;
+  margin-bottom: 40px;
+}
+.leave_replay_section h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  line-height: 25px;
+  color: #1790d0;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.leave_replay_section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333;
+  font-weight: 400;
+}
+.leave_replay_section p a {
+  color: #1790d0;
+  text-decoration: none;
+}
+.leave_replay_section p a:hover,
+.leave_replay_section p a:hover {
+  color: #f05c5d;
+  text-decoration: underline;
+}
+.uploadImage_section {
+  display: flex;
+}
+.uploadImage_section p {
+  font-family: "Poppins", sans-serif;
+
+  width: 34%;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  line-height: 21px;
+}
+.uploadImage_section p span {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  line-height: 21px;
+}
+.uploadImage_section input {
+  font-size: 13px;
+  color: #333;
+}
+.commentArea textarea {
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+.commentArea textarea:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  background-color: rgba(255, 248, 220, 1);
+}
+.commentArea .label_input {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #333;
+  margin-bottom: 3px;
+}
+.commentArea input[type="checkbox"] {
+  display: inline;
+  width: 30px;
+}
+.commentArea .label_input {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #333;
+  margin-bottom: 3px;
+}
+.button_submit {
+  float: right;
+  background-color: #2754a4;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 3%),
+    inset 0px 4px 3px -2px rgb(0 0 0 / 7%);
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .uploadImage_section p {
+    width: 100%;
+  }
+  .uploadImage_section {
+    flex-direction: column;
+  }
+  .user_commented {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  } 
+}

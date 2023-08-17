@@ -1,0 +1,236 @@
+.basicTraning {
+  padding-top: 30px;
+}
+.video_box {
+  width: 98%;
+  height: 330px;
+  border: solid 1px #cccccc;
+  margin: auto;
+}
+.microgen_overiew h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #1790d0;
+}
+.first_row {
+  padding-bottom: 50px;
+}
+.second_row {
+  margin-bottom: 15px;
+}
+.problem_diagnostics {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 300;
+  color: #2754a4;
+  margin-bottom: 15px;
+}
+.identify_ {
+  background-image: url("../../assets/images/microgendxuniversity/fancy_heading_hr.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 10px;
+}
+.lists {
+  margin-bottom: 15px;
+}
+.lists h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #1790d0;
+  margin-top: 40px;
+}
+.lists ul li {
+  font-family: "Poppins", sans-serif;
+  list-style-type: initial !important;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.bio ul li {
+  list-style-type: circle !important;
+  margin-top: 10px;
+}
+.forth_row {
+  margin-top: 40px;
+}
+.advantage_ {
+  margin-top: 15px;
+}
+.forth_row {
+  margin-top: 40px !important;
+}
+.para {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 21px;
+  color: #333333;
+}
+.video {
+  border: solid 1px #cccccc;
+  height: 260px;
+}
+.basicLinkis {
+  display: flex;
+  flex-direction: column;
+}
+.basicLinkis a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1790d0;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.basicLinkis a:hover {
+  color: #f05c5d;
+  text-decoration: underline;
+}
+.sixth_row {
+  padding-top: 50px !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 40px;
+}
+.fifth_row {
+  padding-bottom: 50px !important;
+}
+.complete {
+  background-image: url("../../assets/images/microgendxuniversity/congrulation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.complete h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #fff;
+  margin-bottom: 15px !important;
+}
+.complete a {
+  background-color: #ffe357 !important;
+  color: #2754a4;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03),
+    inset 0px 4px 3px -2px rgba(0, 0, 0, 0.07);
+  position: relative;
+  padding: 10px 20px;
+  top: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #2754a4;
+  text-decoration: none;
+}
+.complete a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 1;
+  transition: width 0.2s ease-in-out;
+}
+.complete a:hover:after {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .problem_diagnostics {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .problem_diagnostics {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .lists h4 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .forth_row {
+    margin-top: 25px !important;
+  }
+  .complete h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .first_row{
+    padding-bottom: 30px;
+  }
+  .second_row{
+    margin-bottom: 0px;
+  }
+  .fifth_row{
+    padding-bottom:25px !important;
+
+  }
+  .microgen_overiew:nth-child(1){
+    margin-bottom: 15px !important;
+  }
+  .sixth_row{
+    padding-top: 35px !important;
+    margin-bottom: 25px;
+  }
+  .basicLinkis{
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .problem_diagnostics {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .lists ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .lists h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .microgen_overiew h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .complete h4 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .complete a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .complete h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .complete a  {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

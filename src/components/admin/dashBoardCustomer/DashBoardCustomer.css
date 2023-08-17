@@ -1,0 +1,29 @@
+.icon_size {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+.customerNAmeee {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333335;
+  font-weight: 600;
+}
+.mail_anchor {
+  text-decoration: none;
+}
+.userNamee {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  color: #26bf94;
+  font-weight: 400;
+}
+.userTimee {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8c9097;
+  font-weight: 600;
+}

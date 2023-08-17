@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Log In &lsaquo; MicroGenDX Rep Connect &#8212; WordPress</title>
+			
+	    <style>
+    p#backtoblog,
+    .userpro-right{
+        display:none;
+    }
+        body.login form#loginform {
+    background-color: #fff !important;
+    
+}
+body.login div#login h1 a{
+    height: auto !important;
+    width: 100% !important;
+    padding: 40px 0;
+    background-size: auto;
+}
+body.login div#login form#loginform #lable_login_input,
+body.login div#login form#loginform #lable_password_input,
+body.login div#login form#loginform p label{
+    color: #000 !important;
+}
+    </style>
+    <meta name='robots' content='noindex, nofollow, noarchive' />
+
+            <script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer>
+                const ctPublicFunctions = {"_ajax_nonce":"340e2a8623","_rest_nonce":"925e2a6437","_ajax_url":"\/wp-admin\/admin-ajax.php","_rest_url":"https:\/\/repconnect.blaksheepdev.com\/wp-json\/","data__cookies_type":"none","data__ajax_type":"rest","text__wait_for_decoding":"Decoding the contact data, let us a few seconds to finish. Anti-Spam by CleanTalk.","cookiePrefix":""}
+            </script>
+        
+            <script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer>
+                const ctPublic = {"_ajax_nonce":"340e2a8623","settings__forms__check_internal":0,"settings__forms__check_external":0,"settings__forms__search_test":1,"blog_home":"https:\/\/repconnect.blaksheepdev.com\/","pixel__setting":"3","pixel__enabled":false,"pixel__url":"https:\/\/moderate9.cleantalk.org\/pixel\/e035692eb6cc1803e6fcec9d411db48b.gif","data__email_check_before_post":1,"data__cookies_type":"none","data__key_is_ok":false,"data__visible_fields_required":true,"data__to_local_storage":[]}
+            </script>
+        <link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.3' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-content/plugins/progress-bar/js/wppb_animate.js?ver=6.2' id='wppb_animate-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-content/plugins/wp-symposium-pro/js/wp_symposium_pro.js?ver=6.2' id='wps-js-js'></script>
+<script type='text/javascript' data-pagespeed-no-defer src='https://repconnect.blaksheepdev.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.8' id='ct_public_functions-js'></script>
+<link rel='stylesheet' id='wppb_css-css' href='https://repconnect.blaksheepdev.com/wp-content/plugins/progress-bar/css/wppb.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wps-css-css' href='https://repconnect.blaksheepdev.com/wp-content/plugins/wp-symposium-pro/css/wp_symposium_pro.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://repconnect.blaksheepdev.com/wp-includes/css/dashicons.min.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='buttons-css' href='https://repconnect.blaksheepdev.com/wp-includes/css/buttons.min.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='forms-css' href='https://repconnect.blaksheepdev.com/wp-admin/css/forms.min.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='l10n-css' href='https://repconnect.blaksheepdev.com/wp-admin/css/l10n.min.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='login-css' href='https://repconnect.blaksheepdev.com/wp-admin/css/login.min.css?ver=6.2' type='text/css' media='all' />
+<style id='acl-er-socialcss-inline-css' type='text/css'>
+ 
+		.divsocial{
+			text-align: center;
+			padding:20px;
+								}	
+
+		.icon-button {
+			background-color: #1e73be;
+			border-radius: 0rem;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 18px;
+			height: 42px;
+			line-height: 42px;
+			margin: 0 2px !important;
+			position: relative;
+			text-align: center;
+			-webkit-user-select: none;
+			   -moz-user-select: none;
+				-ms-user-select: none;
+					user-select: none;
+			width: 42px;
+			text-decoration: none;
+		}
+
+		.icon-button span {
+			border-radius: 0;
+			display: block;
+			height: 0;
+			left: 50%;
+			margin: 0;
+			position: absolute;
+			top: 50%;
+			-webkit-transition: all 0.3s;
+			   -moz-transition: all 0.3s;
+				 -o-transition: all 0.3s;
+					transition: all 0.3s;
+			width: 0;
+		}
+		.icon-button:hover span {
+			width: 42px;
+			height: 42px;
+			border-radius: 0rem;
+			margin: -21px;
+		}
+		.icon-button span {
+			background-color: #ffffff		}
+
+		.icon-button i {
+			background: none;
+			color: #ffffff;
+			height: 42px;
+			left: 0;
+			line-height: 40px;
+			position: absolute;
+			top: 0;
+			-webkit-transition: all 0.3s;
+			   -moz-transition: all 0.3s;
+				 -o-transition: all 0.3s;
+					transition: all 0.3s;
+			width: 42px;
+			z-index: 10;
+		}
+
+
+		.icon-button i:hover {
+			color: #1e73be;
+		}
+		
+
+
+</style>
+<style id='acl-er-login-style-inline-css' type='text/css'>
+ 				/* Styles loading for Admin Custome Login */
+		html {
+			background: none !important;
+		}
+
+					html body.login {
+							background: url(https://repconnect.blaksheepdev.com/wp-content/uploads/sites/3/2018/04/login-bg.jpg) no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+						}
+
+			
+		/* Styles for logo image */
+		body.login div#login h1 a {
+			background-image: url(https://repconnect.blaksheepdev.com/wp-content/uploads/sites/3/2021/05/Rep-Connect-Logo-2021.png) !important;
+			padding-bottom: 30px;
+							margin: 0 auto;
+													background-size: 300px 109px;
+			width: 300px;
+			height: 109px;
+		}
+
+							body.login #login {
+			width: px;
+		}
+
+		.language-switcher {
+			display: block		}
+
+		.login form#loginform {
+			border-radius: px;
+			border: px   !important;
+			-moz-box-shadow: none;
+			-webkit-box-shadow: none;
+			box-shadow: none !important;
+			position: relative;
+			z-index: 1;
+			/* for ie */
+			background-color: rgb(, , ) !important;
+			background: url()  ;
+			background: rgba(, , , 0.) !important;
+					}
+
+		.icon-ph {
+			color: #000000;
+		}
+
+		body.login div#login form p label,
+		body.login div#login form #lable_password_input label,
+		body.login div#login form #lable_login_input,
+		body.login div#login form .user-pass-wrap,
+		body.login div#login form #forgetmenot_input,
+		body.login div#login form #submit_input {
+			color: #ffffff !important;
+			font-size: 14px !important;
+			font-family: Open Sans !important;
+		}
+
+		#reg_passmail {
+			color: #ffffff !important;
+			font-size: 14px !important;
+			font-family: Open Sans !important;
+		}
+
+		body.login #loginform p.submit .button-primary,
+		body.wp-core-ui .button-primary {
+			background: #dd3333;
+			color:  !important;
+			font-size: 14px;
+			border: none !important;
+			text-shadow: none;
+			font-family: Open Sans;
+		}
+
+		body.login #loginform p.submit .button-primary:hover,
+		body.login #loginform p.submit .button-primary:focus,
+		body.wp-core-ui .button-primary:hover {
+			background: rgba(221, 51, 51, 0.9) ;
+			/*color: rgba(221,51,51, 0.9) !important;*/
+		}
+
+		body.login div#login form .input,
+		.login input[type="text"] {
+			color: #000000;
+			font-size: 18px;
+			font-family: Open Sans;
+			-webkit-box-shadow: 0 0 0px 1000px white inset;
+			-webkit-text-fill-color: #000000 !important;
+		}
+
+		p.message.register {
+			display: none;
+		}
+
+										body.login #nav a,
+		body.login #backtoblog a {
+			color: #08aed3 !important;
+			font-family: Open Sans !important;
+			font-size: 14px !important;
+		}
+
+		body.login #nav,
+		body.login #backtoblog {
+			text-shadow: none;
+		}
+
+		.divfooter {
+			color: #fff;
+			padding-top: 10px !important;
+			text-align: center;
+			width: 335px;
+		}
+
+		.divfooter a,
+		body.login #backtoblog .divfooter {
+			color: #ffffff !important;
+			text-shadow: none;
+		}
+
+		.divfooter a,
+		body.login #backtoblog .divfooter a {
+			color: #f00 !important;
+			text-shadow: none;
+		}
+
+		.login-msg-above {
+			background: #ffffff9e;
+			padding: 12px !important;
+			margin: 4px 0px !important;
+			border-bottom: 3px solid #fff;
+			border-radius: 25px;
+			line-height: 1.4;
+			box-shadow: 0 1px 1px 0 hsla(0, 0%, 0%, 0.1);
+						font-size: px !important;
+						text-align: center;
+			font-weight: 500;
+			color: 
+			#000  !important;
+		}
+
+</style>
+<link rel='stylesheet' id='wl-acl-font-awesome_min-css' href='https://repconnect.blaksheepdev.com/wp-content/plugins/admin-custom-login/css/fontawesome-all.min.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wl-acl-custom-css-css' href='https://repconnect.blaksheepdev.com/wp-content/plugins/admin-custom-login/css/acl-custom.css?ver=6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ct_public_css-css' href='https://repconnect.blaksheepdev.com/wp-content/plugins/cleantalk-spam-protect/css/cleantalk-public.min.css?ver=6.8' type='text/css' media='all' />
+	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width" />
+		</head>
+	<body class="login no-js login-action-login wp-core-ui  locale-en-us">
+	<script type="text/javascript">
+		document.body.className = document.body.className.replace('no-js','js');
+	</script>
+		<div id="login">
+		<h1><a href="https://repconnect.blaksheepdev.com">MicroGenDX Rep Connect</a></h1>
+	
+		<form name="loginform" id="loginform" action="https://repconnect.blaksheepdev.com/wp-login.php" method="post">
+			<p>
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" />
+			</p>
+
+			<div class="user-pass-wrap">
+				<label for="user_pass">Password</label>
+				<div class="wp-pwd">
+					<input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" />
+					<button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Show password">
+						<span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Remember Me</label></p>
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
+									<input type="hidden" name="redirect_to" value="https://repconnect.blaksheepdev.com/wp-admin/" />
+									<input type="hidden" name="testcookie" value="1" />
+			</p>
+		</form>
+
+					<p id="nav">
+				<a href="https://repconnect.blaksheepdev.com/profile-2/register/">Register</a> | <a href="https://repconnect.blaksheepdev.com/my-account/lost-password/">Lost your password?</a>			</p>
+					<script type="text/javascript">
+			function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
+wp_attempt_focus();
+if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
+				<p id="backtoblog">
+			<a href="https://repconnect.blaksheepdev.com/">&larr; Go to MicroGenDX Rep Connect</a>		</p>
+			</div>
+				<div class="language-switcher">
+				<form id="language-switcher" action="" method="get">
+
+					<label for="language-switcher-locales">
+						<span class="dashicons dashicons-translation" aria-hidden="true"></span>
+						<span class="screen-reader-text">
+							Language						</span>
+					</label>
+
+					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
+<option value="es_ES" lang="es" data-installed="1">Español</option></select>
+					
+					
+					
+						<input type="submit" class="button" value="Change">
+
+					</form>
+				</div>
+				<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js?ver=6.2' id='wl-acl-font-config-js'></script>
+<script type='text/javascript' id='wl-acl-font-config-js-after'>
+ 	WebFont.load({
+	google: {
+	families: ['Open Sans'] // saved value
+	}
+	});
+	WebFont.load({
+	google: {
+	families: ["Open Sans"] // saved value
+	}
+	});
+	WebFont.load({
+	google: {
+	families: ["Open Sans"] // saved value
+	}
+	});
+	WebFont.load({
+	google: {
+	families: ["Open Sans"] // saved value
+	}
+	});
+	
+</script>
+<script type='text/javascript' id='weblizar-acl-footer-js-after'>
+
+    jQuery(document).ready(function(){
+		jQuery('html body').attr('id', 'screen');
+		jQuery('#loginform label[for="user_login"]').attr('id', 'lable_login_input');
+		jQuery('#loginform label[for="user_pass"]').attr('id', 'lable_password_input');
+		jQuery('#loginform p').attr('id', 'lable_login_input');
+		jQuery('#loginform p.forgetmenot').attr('id', 'forgetmenot_input');
+		jQuery('#loginform p.submit').attr('id', 'submit_input');
+		jQuery('#loginform .user-pass-wrap').attr('id', 'lable_password_input');
+
+				if (jQuery('#lable_login_input').length) {
+			document.getElementById("lable_login_input").innerHTML="Username / Email<div class='input-container'> <div class='icon-ph'><i class='fa fa-user'></i></div> <input id='user_login' name='log' class='input' type='text' placeholder='Type Username or Email'></div>";
+			document.getElementById("lable_password_input").innerHTML="Password<div class='input-container'> <div class='icon-ph'><i  class='fa fa-key'></i></div> <div class='icon-end'><i id='togglePassword' class='fa fa-eye'></i></div><input id='user_pass' name='pwd' class='input' type='password' placeholder='Type Password'></div>";
+			jQuery('body.login div#login form .input, .login input[type="text"]').css('padding','5px 5px 5px 45px');
+            const togglePassword = document.querySelector("#togglePassword");
+            const password = document.querySelector("#user_pass");
+
+            togglePassword.addEventListener("click", function () {
+                // toggle the type attribute
+                const type = password.getAttribute("type") === "password" ? "text" : "password";
+                password.setAttribute("type", type);
+                
+                // toggle the icon
+                this.classList.toggle("bi-eye");
+            }); 
+		}
+		
+		
+		
+		<!--enable Social Icon In inner login form--> 
+
+						<!--enable Social Icon In outer login form--> 
+						jQuery( "#backtoblog" ).append('<div class="divfooter"> </div>');
+	});
+
+    
+</script>
+<script type='text/javascript' id='zxcvbn-async-js-extra'>
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/repconnect.blaksheepdev.com\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/zxcvbn-async.min.js?ver=1.0' id='zxcvbn-async-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='password-strength-meter-js-extra'>
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-admin/js/password-strength-meter.min.js?ver=6.2' id='password-strength-meter-js'></script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/underscore.min.js?ver=1.13.4' id='underscore-js'></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-includes/js/wp-util.min.js?ver=6.2' id='wp-util-js'></script>
+<script type='text/javascript' id='user-profile-js-extra'>
+/* <![CDATA[ */
+var userProfileL10n = {"user_id":"0","nonce":"9c8b929fd1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://repconnect.blaksheepdev.com/wp-admin/js/user-profile.min.js?ver=6.2' id='user-profile-js'></script>
+	<div class="clear"></div>
+	</body>
+	</html>
+	

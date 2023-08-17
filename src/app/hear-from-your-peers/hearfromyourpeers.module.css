@@ -1,0 +1,36 @@
+.videoo {
+  height: 260px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.peerrow {
+  margin-top: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+.ppers_posts {
+}
+.ppers_posts h4 {
+  font-family: "Poppins", sans-serif;
+  color: #1790d0;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 992px) {
+  .ppers_posts {
+    margin-bottom: 10px;
+  }
+  .peerrow {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ppers_posts h4 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}

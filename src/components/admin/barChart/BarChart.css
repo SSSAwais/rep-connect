@@ -1,0 +1,28 @@
+.card_Bar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 16px 20px;
+}
+.card_Bar h5 {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #333335;
+  font-weight: 700;
+}
+.p-chart {
+  padding: 0px 15px;
+}
+.p-chart canvas {
+  width: 100% !important;
+  height: 360px !important;
+}
+.card {
+  border: none !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .p-chart canvas {
+    height: 100% !important;
+  }
+}

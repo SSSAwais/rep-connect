@@ -1,0 +1,19 @@
+.addBorder {
+  border: 1px solid red;
+}
+.image_section {
+  margin: 10px 5px;
+  padding: 5px 0px;
+}
+.image_section {
+  width: 135px;
+  height: 152px;
+  border-radius: 8px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .image_section {
+    width: 150px;
+    height: 130px;
+  }
+} */

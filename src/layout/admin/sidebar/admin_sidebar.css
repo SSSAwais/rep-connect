@@ -1,0 +1,96 @@
+.admin-sidebar .menu-list ul,
+.admin-sidebar .menu-list ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.admin-sidebar ol.more-list {
+  padding: 15px 0 15px 15px;
+}
+
+.admin-sidebar .menu-list {
+  padding-top: 8px;
+}
+
+.admin-sidebar .logoo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 15px;
+}
+.admin-sidebar .logoo img {
+  max-height: 45px;
+}
+
+.admin-sidebar ul li {
+  padding: 0 0.75rem;
+}
+.admin-sidebar ul li.list-menu {
+  margin-bottom: 5px;
+}
+
+.admin-sidebar li.short-head {
+  color: #a3aed1;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.065rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.5;
+  position: relative;
+  padding: 0.75rem 1.65rem;
+}
+
+.admin-sidebar li span.title-name,
+.admin-sidebar li a {
+  padding: 0.6rem 0.75rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.78rem;
+  color: #a3aed1;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.admin-sidebar li span.title-name.active,
+.admin-sidebar li span.title-name:hover,
+.admin-sidebar li a.active,
+.admin-sidebar li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+.admin-sidebar ol.more-list li a.active,
+.admin-sidebar ol.more-list li a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.menu-list li span.d-icon {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.menu-list li span.right-side-icon {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .side-bar-overlay-admin.overlay-open {
+    position: fixed;
+    inset: 0;
+    inset: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: rgba(15, 23, 42, 0.5);
+    z-index: 11;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .admin-sidebar .logoo img {
+    max-height: 35px;
+  }
+}

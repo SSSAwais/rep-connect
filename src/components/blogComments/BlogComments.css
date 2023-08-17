@@ -1,0 +1,143 @@
+.comment_wrapper_detail .user_detail_section_wrapper {
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.user_inner_detail h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #444444;
+  margin-bottom: 0px;
+}
+.user_inner_detail h4 span {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 21px;
+  color: #a8a8a8;
+  font-weight: 400;
+}
+.like_sections {
+  position: relative;
+  padding-top: 20px;
+}
+.like_sections .likebtn::after,
+.like_sections .isNotLiked:after {
+  content: "";
+  display: block;
+  background-image: url("../../assets/images/singleproductsimages/likes.svg");
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-repeat: no-repeat;
+  transition: width 0.2s ease-in-out;
+}
+
+.like_sections .likebtn,
+.like_sections .isNotLiked {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 0.25em;
+  box-shadow: none;
+  padding: 16px 20px;
+  border: none;
+  text-align: center;
+  transition: none;
+  cursor: pointer;
+}
+.like_sections .isNotLiked:after {
+  filter: invert(44%) sepia(40%) saturate(3852%) hue-rotate(329deg)
+    brightness(100%) contrast(111%);
+}
+.like_sections .likebtn:hover:after {
+  width: 100% !important;
+}
+.like_sections .likes_number::after {
+  content: "";
+  position: absolute;
+  border: 1px solid transparent;
+  background: #fff;
+  border-bottom-color: #bdbdbd;
+  left: -5px;
+  top: 50%;
+  border-left-color: #bdbdbd;
+  transform: rotate(45deg) translatey(-50%);
+  width: 5px;
+  height: 5px;
+  margin: 0;
+}
+.like_sections .likes_number {
+  position: relative;
+  border-radius: 0.25em;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #fff;
+  margin-left: 8px;
+  line-height: 28px;
+  display: inline-block;
+  padding: 0 10px;
+  box-shadow: 0 0 0 1px #bdbdbd inset;
+  color: #616161;
+  vertical-align: middle;
+  text-align: center;
+}
+.comment_wrapper_detail {
+  display: flex;
+}
+.user_detail_section_wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.image_comment img {
+  width: 52px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.comment_wrapper_detail .replay a {
+  font-family: "Poppins", sans-serif;
+
+  background-color: #2754a4;
+  font-size: 11px;
+  color: #fff !important;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.date_comment_section {
+  font-size: 12px;
+  font-style: italic;
+  color: #0095eb;
+  text-decoration: none;
+}
+.date_comment_section:hover,
+.comment_wrapper_detail .replay a:hover {
+  color: #f05c5d;
+  text-decoration: underline;
+}
+.user_commented {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 21px;
+}
+@media screen and (max-width: 768px) {
+  .comment_wrapper_detail .user_detail_section_wrapper {
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+  .image_comment img {
+    width: 34px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
